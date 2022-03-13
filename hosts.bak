@@ -1,0 +1,7 @@
+personal-pi-1.local ansible_connection=ssh ansible_user=pi
+
+[k3s_nodes]
+personal-pi-1.local
+
+[k3s_master]
+personal-pi-1.local
